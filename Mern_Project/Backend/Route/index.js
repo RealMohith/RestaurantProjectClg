@@ -6,7 +6,7 @@ const {
     ,DeleteRestaurant
     ,GetRestaurant
     ,GetRestaurantList
-  } = require ("../Model/models");
+  } = require ("../Controller/AppController");
 
   router.post("/restaurants" , CreateRestaurant);
   router.get("/restaurants",  GetRestaurantList);
